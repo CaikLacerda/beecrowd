@@ -1,6 +1,5 @@
-clicksThirdLink = gets.to_i
+third = gets.to_i
 
-clicksSecondLink = clicksThirdLink * 2
-clicksFirstLink = clicksSecondLink * 2
+first = 4 * third
 
-puts clicksFirstLink
+puts first
